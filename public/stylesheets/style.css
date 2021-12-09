@@ -16,3 +16,9 @@ body {
   position: relative;
   top: 8rem;
 }
+.form-group{
+  margin : 1rem !important;
+}
+.control-group{
+  margin : 1rem !important;
+}

@@ -52,8 +52,11 @@
               Account
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">login</a></li>
+              {{#if status}}
               <li><a class="dropdown-item" href="#">logout</a></li>
+              {{else}}
+              <li><a class="dropdown-item" href="/login">login</a></li>
+              {{/if}}
             </ul>
           </li>
         </ul>

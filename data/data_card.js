@@ -29,5 +29,36 @@ let card_items = [
                 price : "150rs",
                 description:"Paani puri with masal puri."
             }
-        ]
-module.exports = card_items;
+        ];
+
+let users = [
+    {
+        username: "Pranav K V",
+        email:"pranavkv2000@gmail.com",
+        password : "pass123"
+    },
+    {
+        username: "Alex",
+        email:"alexander@gmail.com",
+        password : "pass123"
+    },
+    {
+        username: "Aloshi",
+        email:"Aloshi@gmail.com",
+        password : "pass123"
+    },
+    {
+        username: "Ayyapan Nair",
+        email:"ayyapannair@gmail.com",
+        password : "pass123"
+    },
+    {
+        username: "Koshi Kurian",
+        email:"Koshikurian@gmail.com",
+        password : "pass123"
+    }
+];
+
+
+
+module.exports = {card_items:card_items,users:users};
