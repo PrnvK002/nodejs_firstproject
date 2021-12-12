@@ -17,7 +17,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(session({ secret: 'top secret',resave:false,saveUninitialized:false, cookie: {secure:true, maxAge: 60000 }}))
+app.use(session({ secret: 'top secret',resave:false,saveUninitialized:false, cookie: {secure:false, maxAge: 600000 }}))
 app.use('/', usersRouter);
 app.use('/admin', adminRouter);
 
